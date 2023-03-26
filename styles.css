@@ -77,3 +77,14 @@ form input {
     border-bottom-width: 2px;
     transition: all 0.2s ease;
 }
+
+form .field input:focus,
+form .field.valid input {
+    border-color: #5372f0;
+}
+
+form .field.shake input,
+form .field.error input {
+    border-color: #dc3545;
+}
+
