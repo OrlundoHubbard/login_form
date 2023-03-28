@@ -88,3 +88,21 @@ form .field.error input {
     border-color: #dc3545;
 }
 
+.field .input-area i {
+    position: absolute;
+    top: 50%;
+    font-size: 18px;
+    pointer-events: none;
+    transform: translateY(-50%);
+}
+
+.input-area .icon {
+    left: 15px;
+    color: #bfbfbf;
+    transition: color 0.2s ease;
+}
+
+.input-area .error.icon {
+    right: 15px;
+    color: #dc3545;
+}
